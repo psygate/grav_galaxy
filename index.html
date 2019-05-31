@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Galaxy</title>
+    <script src="galaxy.js"></script>
+</head>
+<body>
+<canvas width="640" height="640" style="background-color: darkred" id="particle_canvas">
+    HTML 5 required.
+</canvas>
+<div>FPS: <span id="fps_counter">0</span></div>
+<div>
+    <div>
+        <label for="run_simulation_checkbox" id="run_simulation_checkbox_label">Run simulation:</label>
+        <input type="checkbox" id="run_simulation_checkbox" checked="true">
+    </div>
+    <div>
+        <label for="particle_number" id="particle_number_label">Particle Number:</label>
+        <input type="range" min="1" max="10" value="1" class="slider" id="particle_number">
+        <span id="particle_number_value">1000</span>
+    </div>
+</div>
+</body>
+</html>
